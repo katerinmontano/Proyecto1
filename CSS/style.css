@@ -1,0 +1,192 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 60px 200px 0px 200px;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  margin: 0 auto;
+}
+.logoimagen {
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+nav {
+  background-color:rgb(255, 255, 255);
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navegacion {
+  padding: 10px 60px 10px 60px;
+}
+.navegacion:hover {
+  background-color:blanchedalmond;
+}
+.navegacion a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+.parallax { 
+  background-image: url(../imagenes/Demi\ Lovato\ 1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 1000px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.tituloparallax h2 { 
+  font-size: 2cm;
+  color: black;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.parrafoparallax { 
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  border: 2px solid black;
+}
+.parrafoparallax:hover{
+  background-color: white;
+    opacity: 0.7;
+}
+.parrafoparallax a { 
+  font-size: 0.5cm;
+  color: black;
+  font-weight: 400;
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+  text-decoration: none;
+}
+.informacion{
+  display: inline-flex;
+}
+.informacion p{
+  color: black;
+  max-width: 50%;
+  margin: 0;
+    align-self: center;
+  padding-left: 50px;
+  line-height: 23px;
+}
+.titulodemi { 
+  font-size: 60px;
+  font-weight: 700;
+  color: black;
+  display: inline-flex;
+}
+.titulodemi2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  display: inline-block;
+}
+.informacion img  {
+max-width: 50%;
+height: auto;
+padding: 0px 50px;
+}
+.contentmusic{
+  font-family: 'Kalam', cursive;
+  letter-spacing: 5px;
+ line-height: 2px;
+}
+.contentmusic h2{
+font-family: "Roboto", sans-serif; ;
+margin: 150px 0px;
+font-size: 1.5cm;
+color: rgb(71, 0, 71);
+font-weight: 900;
+text-align: center;
+}
+.container {
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+.container .card{
+width: 400px;
+height: 500px;
+border-radius:8px ;
+box-shadow: 0 2px 2px rgb(71, 0, 71);
+overflow: hidden;
+margin: 0 10px;
+text-align: center;
+transition: all 0.25s;
+}
+
+.container .card:hover{
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgb(71, 0, 71) ;
+}
+
+.container .card img{
+  width: 350px;
+  height: 350px;
+}
+
+.container .card h4{
+  font-weight: 600;
+  color: rgb(71, 0, 71);
+}
+.container .card p{
+padding:0 1rem; 
+font-size: 16px;
+font-weight: 300;
+color:rgb(71, 0, 71);
+}
+.container .card a {
+font-weight: 500;
+text-decoration: none;
+color: black;
+}
+.videos{
+  margin: 50px 0px 0px 0px;
+}
+.imagensection{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.imagensection img{
+width: auto;
+height: 100px;
+}
+.iframeprincipal {
+  display: flex;
+  justify-content: center;
+}
+.iframes{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.iframes iframe{
+  padding: 20px;
+}
+.final{
+  margin-top: 100px;
+  background-color: rosybrown;
+min-height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.final p{
+  text-align: center;
+  font-weight: 400;
+  color: black;
+}
